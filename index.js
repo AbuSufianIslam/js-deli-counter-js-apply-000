@@ -9,6 +9,8 @@
    // return "Welcome, " + name +". You are number " + katzDeliLine.length + " in line.";
    
  }
+ let  line = []
+ console.log(takeANumber(line))
  
  function nowServing(katzDeliLine){
    
