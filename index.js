@@ -8,13 +8,9 @@
  function nowServing(katzDeliLine){
    
    if(katzDeliLine.length===0){
-     
      return "There is nobody waiting to be served!";
-     
-   }else{
-     
+   } else {
      return "Currently serving " + katzDeliLine.shift() + ".";
-     
    }
    
  }
@@ -30,7 +26,6 @@ function currentLine(katzDeliLine){
     
     var nowInLine = [];
     for(var i=0;i<katzDeliLine.length;i++){
-      
       nowInLine.push(i+1 + ". " + katzDeliLine[i]); 
       
     }
