@@ -1,7 +1,12 @@
- function takeANumber(katzDeliLine, name){
+ counter=0;
+ function takeANumber(katzDeliLine){
+   counter+=1;
    
-   katzDeliLine.push(name);
-   return "Welcome, " + name +". You are number " + katzDeliLine.length + " in line.";
+   katzDeliLine.push(counter);
+   
+   // Welcome you are number 47!
+   return `Welcome you are number `+ counter + "!";
+   // return "Welcome, " + name +". You are number " + katzDeliLine.length + " in line.";
    
  }
  
