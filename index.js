@@ -12,6 +12,8 @@
  let  line = []
  console.log(takeANumber(line))
  
+ 
+ 
  function nowServing(katzDeliLine){
    
    if(katzDeliLine.length===0){
