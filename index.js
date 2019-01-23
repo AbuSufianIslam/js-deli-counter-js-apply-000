@@ -1,5 +1,6 @@
- counter=0;
+
  function takeANumber(katzDeliLine){
+   let counter=0;
    counter+=1;
    
    katzDeliLine.push(counter);
